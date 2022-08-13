@@ -1,8 +1,3 @@
-
-import 'social_share_platform_interface.dart';
-
-class SocialShare {
-  Future<String?> getPlatformVersion() {
-    return SocialSharePlatform.instance.getPlatformVersion();
-  }
-}
+export 'src/share_defines.dart';
+export 'src/share_plugin.dart';
+export 'src/share_register.dart';
