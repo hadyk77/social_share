@@ -21,8 +21,7 @@ dependencies:
   path_provider:
   bot_toast:
   social_share:
-    git:
-      url: https://github.com/hadyk77/social_share.git
+    path: ../
     
 
   # The following adds the Cupertino Icons font to your application.

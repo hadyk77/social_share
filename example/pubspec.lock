@@ -222,11 +222,9 @@ packages:
   social_share:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "0cf2f201a82a5b462b07b8dcaa2f2cc09626bbfd"
-      url: "https://github.com/hadyk77/social_share.git"
-    source: git
+      path: ".."
+      relative: true
+    source: path
     version: "0.0.1"
   source_span:
     dependency: transitive
