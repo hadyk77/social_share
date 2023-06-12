@@ -1,4 +1,4 @@
-package com.chejdj.social_share.impl;
+package com.u21class.social_share.impl;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -7,8 +7,8 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import com.chejdj.social_share.PlatformShare;
-import com.chejdj.social_share.SocialSharePlugin;
+import com.u21class.social_share.PlatformShare;
+import com.u21class.social_share.SocialSharePlugin;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package com.chejdj.social_share.impl;
+package com.u21class.social_share.impl;
 
 import android.app.Activity;
 

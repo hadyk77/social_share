@@ -1,4 +1,4 @@
-package com.chejdj.social_share.util;
+package com.u21class.social_share.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,8 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.chejdj.social_share.provider.ShareFileProvider;
+
+import com.u21class.social_share.provider.ShareFileProvider;
 
 import java.io.File;
 

@@ -1,11 +1,11 @@
-package com.chejdj.social_share.impl;
+package com.u21class.social_share.impl;
 
 import android.app.Activity;
 
 import androidx.annotation.NonNull;
 
-import com.chejdj.social_share.PlatformShare;
-import com.chejdj.social_share.SocialSharePlugin;
+
+import com.u21class.social_share.PlatformShare;
 
 import java.io.File;
 

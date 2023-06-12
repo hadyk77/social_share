@@ -1,4 +1,4 @@
-package com.chejdj.social_share.util;
+package com.u21class.social_share.util;
 
 import java.io.File;
 

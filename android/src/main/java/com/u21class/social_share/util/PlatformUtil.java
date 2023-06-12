@@ -1,10 +1,11 @@
-package com.chejdj.social_share.util;
+package com.u21class.social_share.util;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-import com.chejdj.social_share.constants.PlatformConst;
+
+import com.u21class.social_share.constants.PlatformConst;
 
 import io.flutter.plugin.common.MethodChannel;
 

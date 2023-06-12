@@ -1,17 +1,17 @@
-package com.chejdj.social_share;
+package com.u21class.social_share;
 
 import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-import com.chejdj.social_share.constants.PlatformConst;
-import com.chejdj.social_share.impl.FacebookShare;
-import com.chejdj.social_share.impl.LineShare;
-import com.chejdj.social_share.impl.SystemShare;
-import com.chejdj.social_share.impl.TwitterShare;
-import com.chejdj.social_share.impl.WechatShare;
-import com.chejdj.social_share.impl.WhatsAppShare;
-import com.tencent.mm.opensdk.modelmsg.SendMessageToWX;
+
+
+import com.u21class.social_share.constants.PlatformConst;
+import com.u21class.social_share.impl.FacebookShare;
+import com.u21class.social_share.impl.LineShare;
+import com.u21class.social_share.impl.TwitterShare;
+import com.u21class.social_share.impl.WechatShare;
+import com.u21class.social_share.impl.WhatsAppShare;
 
 import java.util.Map;
 

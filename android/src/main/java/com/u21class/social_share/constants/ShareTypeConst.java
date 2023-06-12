@@ -1,4 +1,4 @@
-package com.chejdj.social_share.constants;
+package com.u21class.social_share.constants;
 
 public class ShareTypeConst {
 

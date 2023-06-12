@@ -4,10 +4,10 @@ import android.app.Activity;
 
 import androidx.annotation.NonNull;
 
-import com.chejdj.social_share.constants.ShareErrorCode;
-import com.chejdj.social_share.constants.ShareTypeConst;
-import com.chejdj.social_share.util.PlatformUtil;
-import com.chejdj.social_share.util.Utils;
+
+import com.u21class.social_share.constants.ShareTypeConst;
+import com.u21class.social_share.util.PlatformUtil;
+import com.u21class.social_share.util.Utils;
 
 import java.io.File;
 import java.util.HashMap;
@@ -61,7 +61,7 @@ public class SocialSharePlugin implements FlutterPlugin, MethodCallHandler {
   public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
     switch (call.method) {
       case "registerPlatforms":
-        PlatformShareFactory.registerPlatform(activity, call.<Map<Integer, Map<String, String>>>arguments());
+        com.chejdj.social_share.PlatformShareFactory.registerPlatform(activity, call.<Map<Integer, Map<String, String>>>arguments());
         break;
       case "isClientInstalled":
         PlatformUtil.isClientInstalled(activity, call.<Integer>argument("platform"), result);

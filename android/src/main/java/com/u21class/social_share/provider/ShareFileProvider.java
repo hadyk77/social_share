@@ -1,4 +1,4 @@
-package com.chejdj.social_share.provider;
+package com.u21class.social_share.provider;
 
 import androidx.core.content.FileProvider;
 
