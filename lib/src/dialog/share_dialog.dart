@@ -118,7 +118,8 @@ class ShareDialog {
               selectedCallback(element.platform?.id);
             }
             if (element.platform == null) {
-              Clipboard.setData(ClipboardData(text: shareParamsBean.text));
+              Clipboard.setData(
+                  ClipboardData(text: shareParamsBean.text ?? ""));
               successCallBack();
               Navigator.of(context).pop();
               return;
